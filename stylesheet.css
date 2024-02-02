@@ -32,12 +32,12 @@ img {
 	margin-right: auto;
 }
 
-div.tiledFigures img
+div.figureGallery img
 {
 	border-radius: 50%;
 }
 
-div.tiledFigures {
+div.figureGallery {
 	column-count: 2;
 	column-width: 285px;
 	column-gap: 40px;
