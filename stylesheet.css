@@ -13,9 +13,9 @@ h3 {
 }
 
 figure {
-  border: 1px #cccccc solid;
   padding: 4px;
   margin: auto;
+  text-align: center;
 }
 
 figcaption {
@@ -32,11 +32,15 @@ img {
 	margin-right: auto;
 }
 
+.roundedImages img
+{
+	border-radius: 50%;
+}
+
 .tiledFigures {
 	column-count: 2;
 	column-width: 285px;
 	column-gap: 40px;
-	border-radius: 50%;
 }
 
 .tiledBlurbs {
