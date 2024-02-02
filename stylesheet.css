@@ -2,7 +2,8 @@ body {
   max-width: 650px;
   margin: 40px auto;
   padding: 0 10px;
-  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 h1,
@@ -26,25 +27,26 @@ figcaption {
 img {
 	object-fit:contain;
 	height: 100%;
-	width: 100%
+	width: 100%;
 }
 
 .tiledFigures {
 	column-count: 2;
 	column-width: 285px;
-	column-gap: 40px
+	column-gap: 40px;
+	border-radius: 50%;
 }
 
 .tiledBlurbs {
 	column-count: 2;
 	column-width: 285px;
-	column-gap: 40px
+	column-gap: 40px;
 }
 
 .twoColumns {
 	column-count: 2;
 	column-width: 285px;
-	column-gap: 40px
+	column-gap: 40px;
 }
 
 @media (prefers-color-scheme: dark) {
