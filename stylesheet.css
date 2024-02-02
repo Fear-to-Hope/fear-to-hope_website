@@ -32,24 +32,24 @@ img {
 	margin-right: auto;
 }
 
-.roundedImages img
+div.tiledFigures img
 {
 	border-radius: 50%;
 }
 
-.tiledFigures {
+div.tiledFigures {
 	column-count: 2;
 	column-width: 285px;
 	column-gap: 40px;
 }
 
-.tiledBlurbs {
+div.tiledBlurbs {
 	column-count: 2;
 	column-width: 285px;
 	column-gap: 40px;
 }
 
-.twoColumns {
+div.twoColumns {
 	column-count: 2;
 	column-width: 285px;
 	column-gap: 40px;
