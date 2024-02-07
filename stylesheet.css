@@ -32,6 +32,8 @@ img {
 	margin-right: auto;
 }
 
+/* TODO --> add class for text and image next to each other*/
+
 div.figureGallery img
 {
 	border-radius: 50%;
