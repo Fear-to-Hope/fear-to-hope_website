@@ -1,90 +1,80 @@
 body {
-  max-width: 650px;
-  margin: 40px auto;
-  padding: 0 10px;
-  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
-  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple
+  Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color
+  Emoji";
 }
-
 h1,
 h2,
 h3 {
-  line-height: 1.2;
+    line-height: 1.2;
 }
-
 figure {
-  padding: 4px;
-  margin: auto;
-  text-align: center;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
 }
-
 figcaption {
-	font-style: italic;
-	padding: 2px;
-	text-align: center;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
 }
-
 img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* TODO --> add class for text and image next to each other*/
-
-div.figureGallery img
-{
-	border-radius: 50%;
-}
-
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} /* TODO --&gt; add class for text and image
+  next to each other */
 div.figureGallery {
-	column-count: 2;
-	column-width: 285px;
-	column-gap: 40px;
+    column-count: 2;
+    column-width: 285px;
+    column-gap: 40px;
 }
-
+div.figureGallery img {
+    border-radius: 50%;
+}
 div.tiledBlurbs {
-	column-count: 2;
-	column-width: 285px;
-	column-gap: 40px;
+    column-count: 2;
+    column-width: 285px;
+    column-gap: 40px;
 }
-
 div.twoColumns {
-	column-count: 2;
-	column-width: 285px;
-	column-gap: 40px;
+    column-count: 2;
+    column-width: 285px;
+    column-gap: 40px;
 }
-
+div.textLeftImageRight p {
+    margin-right: 325px;
+    margin-bottom: 20px;
+}
+div.textLeftImageRight img {
+    float: right;
+}
 @media (prefers-color-scheme: dark) {
-  body {
-    color: #c9d1d9;
-    background: #0d1117;
-  }
-
-  a:link {
-    color: #58a6ff;
-  }
-
-  a:visited {
-    color: #8e96f0;
-  }
+    body {
+        color: #c9d1d9;
+        background: #0d1117;
+    }
+    a:link {
+        color: #58a6ff;
+    }
+    a:visited {
+        color: #8e96f0;
+    }
 }
-
 @media (prefers-color-scheme: light) {
-  body {
-    color: #283618;
-    background: #FEFAE0;
-  }
-
-  a:link {
-    color: #BC6C25;
-  }
-
-  a:visited {
-    color: #DDA15E;
-  }
-
-
+    body {
+        color: #283618;
+        background: #fefae0;
+    }
+    a:link {
+        color: #bc6c25;
+    }
+    a:visited {
+        color: #dda15e;
+    }
 }
