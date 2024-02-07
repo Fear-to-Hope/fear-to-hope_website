@@ -2,9 +2,6 @@ body {
     max-width: 650px;
     margin: 40px auto;
     padding: 0 10px;
-    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple
-  Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color
-  Emoji";
 }
 h1,
 h2,
@@ -27,8 +24,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-} /* TODO --&gt; add class for text and image
-  next to each other */
+}
 div.figureGallery {
     column-count: 2;
     column-width: 285px;
@@ -47,13 +43,15 @@ div.twoColumns {
     column-width: 285px;
     column-gap: 40px;
 }
-div.textLeftImageRight p {
-    margin-right: 325px;
-    margin-bottom: 20px;
-}
-div.textLeftImageRight img {
+
+/* TODO fix column image class */
+
+div.floatRight img{
     float: right;
+    width: 50%;
+    padding: 15px;
 }
+
 @media (prefers-color-scheme: dark) {
     body {
         color: #c9d1d9;
