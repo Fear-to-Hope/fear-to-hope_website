@@ -13,18 +13,25 @@ figure {
     margin: auto;
     text-align: center;
 }
+
+figure img{
+    width = 100%
+}
+
 figcaption {
     font-style: italic;
-    padding: 2px;
+    padding: 4px;
     text-align: center;
 }
 img {
-    max-width: 100%;
-    height: auto;
+    object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    width: 100%;
 }
+
 div.figureGallery {
     column-count: 2;
     column-width: 285px;
