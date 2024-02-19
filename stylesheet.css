@@ -41,20 +41,13 @@ div.figureGallery {
 div.figureGallery img {
     border-radius: 50%;
 }
+
 div.tiledBlurb {
-    width: 225px;
+    width: auto;
     height: fit-content;
-    border: 5px solid black;
     padding: 10px;
     margin: 10px;
     text-align: left;
-}
-
-div.flexColumns {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: start;
-    justify-content: space-around;
 }
 
 /* TODO fix column image class */
