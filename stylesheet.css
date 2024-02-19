@@ -68,6 +68,11 @@ div.equalColumns {
     a:visited {
         color: #8e96f0;
     }
+/*
+    div.tiledBlurb{
+        color: #
+    }
+*/
 }
 @media (prefers-color-scheme: light) {
     body {
