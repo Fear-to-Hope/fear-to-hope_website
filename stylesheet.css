@@ -51,10 +51,9 @@ div.flexColumns {
 
 /* TODO fix column image class */
 
-div.floatRight img{
-    float: right;
-    width: 50%;
-    padding: 15px;
+div.equalColumns {
+    display: grid;
+    gap: 1em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -80,4 +79,12 @@ div.floatRight img{
     a:visited {
         color: #dda15e;
     }
+}
+
+@media (min-width: 650px) {
+    div.equalColumns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
 }
