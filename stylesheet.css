@@ -33,15 +33,20 @@ div.figureGallery {
 div.figureGallery img {
     border-radius: 50%;
 }
-div.tiledBlurbs {
-    column-count: 2;
-    column-width: 285px;
-    column-gap: 40px;
+div.tiledBlurb {
+    width: 225px;
+    height: fit-content;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
 }
-div.twoColumns {
-    column-count: 2;
-    column-width: 285px;
-    column-gap: 40px;
+
+div.flexColumns {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+    justify-content: space-around;
 }
 
 /* TODO fix column image class */
