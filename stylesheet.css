@@ -9,21 +9,25 @@ h2,
 h3 {
     line-height: 1.2;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 figure {
     padding: 4px;
     margin: auto;
     text-align: center;
 }
 
-figure img{
-    width = 100%
-}
 
 figcaption {
     font-style: italic;
     padding: 4px;
     text-align: center;
 }
+
 img {
     object-fit: contain;
     display: block;
@@ -49,6 +53,34 @@ div.tiledBlurb {
     padding: 10px;
     margin: 10px;
     text-align: left;
+}
+
+
+div.memberTile {
+    width: auto;
+    height: fit-content;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+
+div.memberTile img {
+    border-ratius: 30%
+    object-fit: cover;
+}
+
+div.memberTile h3 {
+    font-size: medium;
+    line-height: 1;
+}
+
+div.memberTile p {
+    font-size: small;
+    line-height: 1;
+}
+
+div.centered {
+    text-align: center;
 }
 
 /* TODO fix column image class */

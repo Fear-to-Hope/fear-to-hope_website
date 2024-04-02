@@ -1,2 +1,3 @@
 - add "whats new" page
 - add "save the date" icon
+- FINISH TEAM PAGE
