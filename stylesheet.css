@@ -10,6 +10,8 @@ h3 {
     line-height: 1.2;
 }
 
+
+
 div.noBullets ul {
   list-style-type: none;
   padding-left: 0;
@@ -84,42 +86,65 @@ div.centered {
     text-align: center;
 }
 
-/* TODO fix column image class */
+
 
 div.equalColumns {
     display: grid;
     gap: 1em;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #c9d1d9;
-        background: #0d1117;
-    }
-    a:link {
-        color: #58a6ff;
-    }
-    a:visited {
-        color: #8e96f0;
-    }
-/*
-    div.tiledBlurb{
-        color: #
-    }
-*/
-}
+
+/* Uses Catppuccin Latte for light and Catppuccin Mocha for dark */
+
 @media (prefers-color-scheme: light) {
     body {
-        color: #283618;
-        background: #fefae0;
+        color: #4c4f69;
+        background: #eff1f5;
     }
     a:link {
-        color: #bc6c25;
+        color: #1e66f5;
     }
     a:visited {
-        color: #dda15e;
+        color: #7287fd;
     }
+
+    hr {
+    	color: #7c7f93
+    }
+
+    div.noticeText a {
+        color: #fe640b
+    }
+
+
+
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #cdd6f4;
+        background: #1e1e2e;
+    }
+    a:link {
+        color: #89b4fa;
+    }
+    a:visited {
+        color: #b4befe;
+    }
+
+    hr {
+    /* Overlay 2 */
+    	color: #9399b2
+    }
+
+	/* Peach */
+    div.noticeText a {
+        color: #fab387
+    }
+
+
+}
+
 
 @media (min-width: 650px) {
     div.equalColumns{
