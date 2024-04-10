@@ -10,7 +10,7 @@ h3 {
     line-height: 1.2;
 }
 
-div.nobullets ul {
+div.noBullets ul {
   list-style-type: none;
   padding-left: 0;
 }
