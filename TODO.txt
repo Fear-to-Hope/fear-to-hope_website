@@ -1,3 +1,6 @@
-- add "whats new" page
-- add "save the date" icon
-- add nav bar!!
+NOW
+- add about page with contact/colophon
+- make build cycle automatic
+
+NEXT
+- make static website generator
